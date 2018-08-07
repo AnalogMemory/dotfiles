@@ -1,0 +1,58 @@
+{
+  "diffEditor.ignoreTrimWhitespace": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "editor.minimap.enabled": false,
+  "editor.rulers": [100],
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.scrollBeyondLastLine": false,
+  "emmet.includeLanguages": {
+    "html": "html",
+    "javascript": [
+      "babel",
+      "jsx",
+      "javascriptreact"
+    ],
+    "erb": "erb",
+    "xml": {
+      "attr_quotes": "single"
+    }
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "explorer.confirmDragAndDrop": false,
+  "files.exclude": {
+    "node_modules/": true,
+    "bower_components/": true,
+    ".cache/": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.format.enable": false,
+  "material-icon-theme.activeIconPack": "react",
+  "materialTheme.fixIconsRunning": false,
+  "php.suggest.basic": false,
+  "search.location": "panel",
+  "standard.options": {
+    "globals": ["$", "jQuery", "fetch"],
+    "ignore": ["node_modules"]
+  },
+  "telemetry.enableCrashReporter": false,
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.fontSize": 13,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "window.zoomLevel": 0,
+  "files.associations": {
+    "*.js": "javascriptreact"
+  }
+}
